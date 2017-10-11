@@ -1860,7 +1860,7 @@ function copyWeightKeywordExtension(extension) {
    if (regExp.test(extension)) {
       return extension;
    }
-   return ".xisf";
+   return ".fit";
 }
 
 function outputSubframesProcess(dialog) {

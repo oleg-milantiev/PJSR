@@ -96,7 +96,7 @@
 
 #define DEFAULT_INPUT_HINTS      "raw cfa"
 #define DEFAULT_OUTPUT_HINTS     ""
-#define DEFAULT_OUTPUT_EXTENSION ".xisf"
+#define DEFAULT_OUTPUT_EXTENSION ".fit"
 
 #define WARN_ON_NO_OUTPUT_DIRECTORY 1
 

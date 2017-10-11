@@ -812,14 +812,14 @@ function FFTRegistrationEngine()
             var name = File.extractName( this.targetImages[i] );
             var outputPath = "";
             if ( this.outputDirectory.length > 0 )
-               outputPath = this.outputDirectory + name + "_r.xisf";
+               outputPath = this.outputDirectory + name + "_r.fit";
             else
             {
                var drive = File.extractDrive( this.targetImages[i] );
                var dir = File.extractDirectory( this.targetImages[i] );
                if ( dir.length > 0 && dir[dir.length-1] != '/' )
                   dir += '/';
-               outputPath = drive + dir + name + "_r.xisf";
+               outputPath = drive + dir + name + "_r.fit";
             }
 
             // Write the image. We don't want to ask for format options, neither

@@ -99,7 +99,7 @@
 #include <pjsr/NumericControl.jsh>
 #include <pjsr/UndoFlag.jsh>
 
-#define DEFAULT_OUTPUT_EXTENSION ".xisf"
+#define DEFAULT_OUTPUT_EXTENSION ".fit"
 
 #define WARN_ON_NO_OUTPUT_DIRECTORY 0
 

@@ -44,7 +44,7 @@
 #define VERSION "1.2.3"
 #define TITLE   "Batch Channel Extraction"
 
-#define DEFAULT_EXTENSION     ".xisf"
+#define DEFAULT_EXTENSION     ".fit"
 #define DEFAULT_REDPREFIX     "R_"
 #define DEFAULT_GRNPREFIX     "G_"
 #define DEFAULT_BLUPREFIX     "B_"
