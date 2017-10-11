@@ -699,7 +699,7 @@ StackEngine.prototype.addFile = function( filePath, imageType, filter, binning, 
       break;
    }
 
-   var item = new FileItem( filePath, exposureTime, temperature );
+   var item = new FileItem( filePath, exposureTime, typeof temperature !== 'undefined' ? temperature : null );
 
    if ( this.frameGroups.length > 0 && !isMaster )
    {
