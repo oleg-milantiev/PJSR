@@ -943,7 +943,7 @@ StackEngine.prototype.doFlat = function()
             var filePath = outputData[c][0]; // outputData.outputImage
             if ( !filePath.isEmpty() )
                if ( File.exists( filePath ) )
-                  tmpGroup.fileItems.push( new FileItem( filePath, 0 ) );
+                  tmpGroup.fileItems.push( new FileItem( filePath, 0, 0 ) );
                else
                   console.warningln( "** Warning: File does not exist after image calibration: " + filePath );
          }
@@ -953,7 +953,7 @@ StackEngine.prototype.doFlat = function()
          if ( masterFlatPath.isEmpty() )
             throw new Error( "Error integrating flat frames." );
          this.frameGroups[i].masterFrame = true;
-         this.frameGroups[i].fileItems.unshift( new FileItem( masterFlatPath, 0 ) );
+         this.frameGroups[i].fileItems.unshift( new FileItem( masterFlatPath, 0, 0 ) );
          this.useAsMaster[ImageType.FLAT] = true;
 
          processEvents();
@@ -2162,8 +2162,8 @@ StackEngine.prototype.runDiagnostics = function()
             this.warning( "The " + F.name + " format does not support keywords." );
          if ( !F.canStoreProperties || !F.supportsViewProperties )
             this.warning( "The " + F.name + " format does not support image properties." );
-         if ( F.isDeprecated )
-            this.warning( "Using a deprecated output file format: " + F.name );
+//         if ( F.isDeprecated )
+//            this.warning( "Using a deprecated output file format: " + F.name );
       }
       catch ( x )
       {
