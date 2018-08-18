@@ -1,3 +1,12 @@
+PJSR for FITS lovers
+
+Due to announced by PixInisight architector Juan Conejero FITS format war, the ability to use this internation file format was removed from majority of PCL processes and scripts.
+
+We are going to restore this inconvinient and (this is only our personal opinion, we agree that we can make a mistake here) ineffective for my personal workflow.
+
+It is free for all, please feel free to contribute.
+
+
 PJSR - PixInsight JavaScript Runtime
 ------------------------------------
 
