@@ -1,8 +1,10 @@
 <b>PJSR for FITS lovers</b>
 
-Due to announced by PixInisight architector Juan Conejero FITS format war, the ability to use this internation file format was removed from majority of PCL processes and scripts.
+Due to announced by PixInsight architect Juan Conejero FITS format war, the ability to use this international file format was restricted for majority of PCL processes and scripts.
 
-We are going to restore this inconvinient and (this is only our personal opinion, we agree that we can make a mistake here) ineffective for my personal workflow.
+We are going to soften the consequences of this war and convert back at least scripts to support FITS format.
+
+<u>Disclaimer</u>. We consider that forced migration from FITS to XISF format is inconvenient and ineffective for our workflows. But this is only our personal opinion, we agree that we can make a mistake here. 
 
 It is free for all, please feel free to contribute.
 
