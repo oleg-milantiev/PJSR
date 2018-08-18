@@ -1,4 +1,4 @@
-PJSR for FITS lovers
+<b>PJSR for FITS lovers</b>
 
 Due to announced by PixInisight architector Juan Conejero FITS format war, the ability to use this internation file format was removed from majority of PCL processes and scripts.
 
